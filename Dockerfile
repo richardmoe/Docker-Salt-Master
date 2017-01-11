@@ -10,7 +10,7 @@ RUN apt-get update && apt-get upgrade -y -o DPkg::Options::=--force-confold
 
 # Add PPA
 
-RUN apt-get install -y software-properties-common dmidecode
+RUN apt-get install -y software-properties-common dmidecode sudo
 RUN apt-get update
 
 # Install Salt
