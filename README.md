@@ -6,7 +6,7 @@ A Docker image which allows you to run a containerised Salt-Master server.
 
 You can easily run the container like so:
 
-    docker run --rm -it soon/salt-master
+    docker run --rm -it richardmoe/docker-salt-master
 
 ## Environment Variables
 
